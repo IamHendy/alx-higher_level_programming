@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 0x12. JavaScript - Warm up
 
 ### Learning Objectives:
@@ -17,3 +18,7 @@
 - What are the arithmetic operators and how to use them  
 - How to manipulate dictionary  
 - How to import a file  
+=======
+in this project, i am practising basic javascript  contents  in node environment
+have fun
+>>>>>>> c62014feabf2987ef378c15d82e76a66c81be2b1
