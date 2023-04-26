@@ -1,11 +1,10 @@
 #!/usr/bin/node
-/* script that displa the status code  of a get request
--  first argument is the URL to request (GET)
-- status code must be printed informat code: <status code>
-- you must get modulerequest
+/* displays the status code of a GET request.
+    - the first argument is the URL to request (GET).
+    - output format: 'code: <status code>'.
 */
 const request = require('request');
 request(process.argv[2], function (error, response) {
-if (error) console.log(error);
-else console.log('code: ' + response.statusCode);
+  if (error) console.log(error);
+  else console.log('code: ' + response.statusCode);
 });
